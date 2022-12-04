@@ -4,20 +4,17 @@
 div {
     background-color: antiquewhite;
     border: 4px;
-    padding: 3px;
-    height: 100px;
     border-color: solid yellowgreen;
     flex: 1;
 }
 .another-one {
     display: flex;
+    flex-direction: column;
+    flex-grow: 50%;
+    flex: 2;
 }
 
 .flex-container p {
-    background-color: aqua;
     border: 4px;
-    padding: 3px;
-    height: 99px;
-    border-color: solid red;
-    flex: 1;
+    flex: 2;
 }
